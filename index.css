@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 @font-face {
     font-family: 'iconfont';
     src: url('./iconfont/iconfont.eot');
@@ -18,10 +15,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
-body{
-   
-}
+  a{
+      text-decoration: none;
+      color: #000;
+  }
 .main {
     width: 1122px;  
     height: 507px;
@@ -48,5 +45,29 @@ body{
 }
 .nav .home{
     position: absolute;
-    left: 0px;
+    left: 20px;
+}
+.nav .list{
+    position: absolute;
+    left: 77px;
+}
+.nav #search{
+    position: absolute;
+    right: 20px;
+}
+.nav #searchInput{
+    padding:0;
+    /* border: 0;默认boder为1 */
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    right:0px;
+    background:rgb(246, 248, 247);
+    border:1px solid rgba(112,112,112,1);
+    
+    border-radius:50px;
+    display: none;
+}
+.searchOpen{
+
 }
