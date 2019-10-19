@@ -55,6 +55,10 @@
     position: absolute;
     right: 20px;
 }
+
+.nav #search:after{
+    content:"测试";
+}
 .nav #searchInput{
     padding:0;
     /* border: 0;默认boder为1 */
@@ -68,6 +72,7 @@
     border-radius:50px;
     display: none;
 }
+
 .searchOpen{
 
 }
